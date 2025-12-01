@@ -1,0 +1,66 @@
+text
+loan_predictor_app/
+│
+├── app.py
+├── model/
+│   ├── __init__.py
+│   ├── loan_predictor.py
+│   └── trained_model.pkl
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   └── images/
+│       └── logo.png
+├── templates/
+│   ├── base.html
+│   ├── index.html
+│   ├── predict.html
+│   ├── results.html
+│   ├── batch_predict.html
+│   └── dashboard.html
+├── requirements.txt
+└── data/
+    └── loan_eligibility_dataset_50k.csv
+
+
+    loan-predictor/
+├── app.py                    # Main Flask application
+├── requirements.txt         # Python dependencies
+├── Procfile                # Railway process definition
+├── railway.json           # Railway configuration
+├── nixpacks.toml         # Build configuration (alternative)
+├── .env.example          # Environment variables template
+├── .gitignore
+├── model/
+│   ├── __init__.py
+│   └── loan_predictor.py
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   └── downloads/
+├── templates/
+│   ├── base.html
+│   ├── index.html
+│   ├── predict.html
+│   └── results.html
+└── data/
+    └── sample_data.csv
+
+
+…or create a new repository on the command line
+echo "# loan-predictor" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/massidic/loan-predictor.git
+
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/massidic/loan-predictor.git
+git branch -M main
+git push -u origin main
