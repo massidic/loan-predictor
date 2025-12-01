@@ -1,0 +1,31 @@
+Dataset Features:
+customer_id: Unique identifier for each customer
+age: Customer age (22-70 years)
+income: Annual income ($20k-$300k)
+education: Education level (High School, Some College, Bachelor, Master, PhD)
+employment_years: Years in current employment
+credit_score: Credit score (300-850)
+debt_to_income_ratio: Debt-to-income ratio (0.1-0.9)
+existing_loans: Number of existing loans
+savings_balance: Savings account balance
+mortgage_balance: Mortgage balance (0 for non-homeowners)
+loan_amount_requested: Requested loan amount
+years_at_current_address: Years at current address
+number_of_credit_cards: Number of credit cards
+late_payments_6m: Late payments in last 6 months
+bankruptcies: Bankruptcy history
+marital_status: Marital status
+dependents: Number of dependents
+home_ownership: Home ownership status
+loan_approved: Target variable (1=approved, 0=rejected)
+approval_probability: Underlying approval probability
+
+Key Characteristics:
+Realistic distributions based on real-world patterns
+Correlated features (e.g., income with savings, age with employment years)
+Business logic embedded in target variable generation
+Balanced dataset with realistic approval rates (~30-40%)
+50,000 records for robust model training
+Both categorical and numerical features
+The dataset is saved as loan_eligibility_dataset_50k.csv and includes a sample file for quick inspection. The script also provides analysis and visualization to help understand the data distribution.
+This dataset is perfect for training the machine learning model we discussed earlier!
